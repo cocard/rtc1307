@@ -1,0 +1,32 @@
+{
+    "name": "RTC时钟模块",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "pxt-PlanetX": "github:elecfreaks/pxt-planetx#v0.2.6",
+        "microphone": "*",
+        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.14",
+        "tag": "v3.0.14",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/58a11d1f48c802b76fdf6ff7e890a1cb024f8616",
+        "target": "4.0.18",
+        "pxt": "6.0.15",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
